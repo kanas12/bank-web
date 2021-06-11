@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body {
+    width: 100%;
+    margin: 0;
+    background-color: antiquewhite;
+
+}
+
+.nav-section {
+    text-align: center;
+    height: 100px;
+    background-color: rgb(79, 243, 229);
+}
+
+.nav-section ul {
+display: inline-flex;
+}
+
+.nav-section ul li {
+    margin: 15px;
+    padding: 20px;
+    list-style: none;
+}
+
+.formDiv {
+    margin-top: 0px;
+}
+.Scale {
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+.nar_section {
+    width: 100%;
+    display: flex;
+    background-color: #f25287;
+    color: #262626;
+    box-shadow: 0px 0px 20px 0.1px rgb(0, 0, 0, 0.1);
+    padding: 0%; 
+  }
+  .nar_section ul {
+    display: flex;
+    margin: auto;
+    /* line-height: 50px; */
+  }
+  .nar_section ul li {
+    padding: 10px 20px;
+    list-style: none;
+  }
+  .nar_section ul li a {
+    text-decoration: none;
+    color: #262626;
+  }
+  .nar_section ul li a:hover {
+    color: #a7c4bc;
+    transition: color 0.3s;
+  }
+  .cool-div {
+    justify-content: center;
+    display: flex;
+    border: 4px solid #125d98;
+    line-height: 45px;
+    border-radius: 35px;
+    padding: 5px 25px 5px 15px;
+  }
+  .search-txt {
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    width: 215px;
+    font-size: 20px;
+    padding: 8px 20px 8px 8px;
+  }
+.login-btn{
+    padding: 5px;
+}
+
+
+.slider{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5px;   
+}
+
+.HolderImg > img {
+  height: 400px;
+  width: 400px;
+  margin: 5px;
+}
+
+.figure-img{
+  display: inline;
+  width: 70%;
+}
+
+.figure-img img{
+  height: 90em;
+  width: 90em;
+  /* margin-left: 50em; */
+}
+
+#id img{
+    margin: 20px;
+    padding: 60px;
+} 
+
+#slider figure{
+    position:relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 12s slider infinite;
+}
+
+#slider figure img{
+    filter: brightness(80%);
+    width: 880px;
+    float: left;
+    margin: 5px;
+}
+
+footer{
+  background-color: crimson;
+   color: aliceblue; height: 100px;
+}
+
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -100%;
+    }
+
+    60%{
+        left: -100%;
+    }
+}
+
+.cover{
+    width: 100%;
+}
+.cover-img{
+    width:100%;
+}
+.quicklinks{
+  display: flex;
+  list-style: none;
+}
+
+
+.nav-section ul li img{
+    border: solid 1px black;
+    position: relative;
+    right: 220px;
+}
+.quicklinks li{
+  margin: 30px;
+  padding-right: 15px;
+  border-right: 1px solid grey;
+}
+.quicklinks li a{
+    text-align: center;
+    text-decoration: none;
+}
+.sc-quick-links__title{
+    font-size: 20px;
+
+}
+.login-btn{
+    width: 100px;
+    height: 25px;
+    background-color: purple;
+    color: white;
+}
+
+.nav-section ul li img{
+  width: 100px;
+  height: 90px;
+}
+
+.address {
+  display: block;
+  font-style: italic;
+}
+
+
+header .item {
+  height: 100vh;
+  position: relative;
+}
+header .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .item .cover {
+  padding: 75px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+header .item .cover .header-content {
+  position: relative;
+  padding: 56px;
+  overflow: hidden;
+}
+header .item .cover .header-content .line {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 9px solid #fff;
+  -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+}
+header .item .cover .header-content h2 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+}
+header .item .cover .header-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+}
+header .item .cover .header-content h4 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+}
+
+header .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+header .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+header .owl-nav .owl-prev:hover {
+  background: #000 !important;
+}
+header .owl-nav .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+header .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+header .owl-nav .owl-next:focus {
+  outline: 0;
+}
+header .owl-nav .owl-next:hover {
+  background: #000 !important;
+}
+header:hover .owl-prev {
+  left: 0px;
+  opacity: 1;
+}
+header:hover .owl-next {
+  right: 0px;
+  opacity: 1;
+}
+
+
+.ab-content-wrapper{
+  display:grid;
+  grid-template-columns: repeat(5,1fr)
+}
+
+a{
+  text-decoration: none;
+  color: #414141;
+}
+.grid{
+  display:grid;
+  background-color: rgb(221, 133, 221);
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+}
+.grid div{
+  width: 100%;
+  height: 100px;
+  /* background-color: white; */
+  padding-left:20px;
+}
+
+.sub-grid{
+  display: grid;
+  border: 1px solid red;
+  grid-column: 1/3;
+}
+.sub-grid img{
+  width: 100%;
+  height: 30%;
+}
+.contact{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+}
+
+
+/* Product page slider starts here */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.formDiv{
+  width: 100%;
+  height: 500px;
+  background-color:rgb(105 106 100);
+}
+
+.form{
+  border: solid 1px rgb(255, 251, 251);
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  border-radius: 10px;
+}
+
+
+.user{
+  border: solid 0px black;
+  width: 50%;
+  margin-left:20px;
+  position: relative;
+  top: 20px;
+ 
+}
+
+
+.user input{
+  padding:5px;
+  border-radius:7px;
+  background-color:rgb(213, 228, 13);
+  font-weight: bold;
+  
+}
+
+#textarea1{
+  background-color:white;
+  border-radius: 10px;
+  width: 300px;
+}
+
+
+#ayirebibank-lb-module-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding:20px 10px 0px 10px;
+}
+
+
+.ayirebi-bank-content-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 960px;
+  margin: 20px auto;
+
+}
+
+.item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item div{
+  padding: 20px;
+}
+.item input{
+  height: 30px;
+}
+
+#depositBtn{
+  width: 150px;
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+#deposit-form input{
+  margin: 10px;
+}
+#deposit-form h1{
+  margin: 10px;
+}
+#deposit-form button{
+  margin: 10px;
+}
